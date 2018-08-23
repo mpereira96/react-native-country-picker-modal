@@ -394,7 +394,7 @@ export default class CountryPicker extends Component {
             onPress={() => this.setState({ modalVisible: true })}
             activeOpacity={0.7} disabled={this.props.disabled}
           >
-            <Text style={styles.button}>SELECT PHOTO FROM YOUR PHONE</Text>
+            <Text style={styles.button}>SELECT COUNTRY</Text>
           </TouchableOpacity>
         }
         <Modal
