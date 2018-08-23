@@ -98,5 +98,14 @@ export default StyleSheet.create({
     height: 24,
     width: 24,
     resizeMode: 'contain'
+  },
+  button: {
+    backgroundColor: '#F2F2F2',
+    padding: 10,
+    fontWeight: '600',
+    textAlign: 'center'
+  },
+  touch: {
+    margin: 10
   }
 })
